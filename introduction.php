@@ -79,12 +79,12 @@ function faireTravailler(Humain $objet)
 {
     var_dump("Travail en cours : {$objet->travailler()}");
 }
+
 $employe1 = new Employe("Gael", "Layeux", 50);
 $employe2 = new Employe("Barnar", "Goddi", 50);
 $patron = new Patron("Blips", "mars", 50, "porsche");
 $etudiant = new Etudiant("Barnar", "Goddi", 50);
-$age = "hah";
-
+$age = (120);
 $employe1->presentation();
 $employe2->presentation();
 $patron->presentation();
